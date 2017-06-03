@@ -8,7 +8,7 @@
     "heroku-postbuild": "knex migrate:rollback; knex migrate:latest; knex seed:run;"
   },
   "engines": {
-    "node": ">=7.6"
+    "node": "7.6"
   },
   "keywords": [],
   "author": "",
