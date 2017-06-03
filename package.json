@@ -4,7 +4,7 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server/server.js"
+    "start": "server/server.js"
   },
   "keywords": [],
   "author": "",
