@@ -4,8 +4,7 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node server/server.js",
-    "heroku-postbuild": "knex migrate:rollback; knex migrate:latest; knex seed:run;"
+    "start": "node server/server.js"
   },
   "engines": {
     "node": "7.6"
